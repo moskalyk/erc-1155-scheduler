@@ -1,0 +1,17 @@
+{
+  "name": "1155-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.0.3",
+    "hypercore": "^10.8.1",
+    "web3.storage": "^4.5.4"
+  }
+}
