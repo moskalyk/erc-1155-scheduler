@@ -13,3 +13,11 @@ $ yarn load-uri             // loads assets as bunbled & step CAR files
                             // change Date() schedule in schedule.js
 $ yarn start                // starts the schedule
 ```
+
+### load-uri follows current pattern
+```
+bafy... -> 0.json
+bafy... -> 0.json, 1.json
+bafy... -> 0.json, 1.json, 2.json
+...
+```
