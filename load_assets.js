@@ -8,7 +8,7 @@ const store = new Corestore('./data')
 const { getFilesFromPath, File} = require('web3.storage')
 
 function getAccessToken () {
-return process.env.WEB3_API_KEY
+    return process.env.WEB3_API_KEY
 }
 
 function makeStorageClient () {

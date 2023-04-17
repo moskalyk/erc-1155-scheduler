@@ -54,11 +54,8 @@ const wait = async (ms) => {
 
     // read csv with metadata values
     const csvAssets = await readCSVFile('assets.csv')
-    console.log(csvAssets)
 
     // loop on length of hypercore
-    console.log(assets.length)
-
     let index = 0;
 
     for(let i = 1; i < 4; i++) {
@@ -71,7 +68,6 @@ const wait = async (ms) => {
         // pull image from hypercore
         for await (const data of partialStream) {
             console.log('data:', data)
-            // await wait(500)
             sliceOfAssets.push(data)
         }
         
