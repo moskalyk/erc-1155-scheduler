@@ -1,3 +1,6 @@
 .env
 /node_modules
 /assets
+assets.csv
+/data
+/metadata

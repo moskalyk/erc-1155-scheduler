@@ -454,6 +454,18 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
+corestore@^6.5.2:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/corestore/-/corestore-6.5.2.tgz#43422af2229ef41a46f310d62488fd54de76dd94"
+  integrity sha512-/pwuChA30v4Uy3rzg3NmdT2PZMRstAMBQmGwPivkETv1rxC8qMt/btjMv9rv4MmanyTo+IHguFFumMEv8yrKjg==
+  dependencies:
+    b4a "^1.3.1"
+    hypercore "^10.5.3"
+    hypercore-crypto "^3.2.1"
+    safety-catch "^1.0.1"
+    sodium-universal "^4.0.0"
+    xache "^1.1.0"
+
 crc-native@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/crc-native/-/crc-native-1.0.4.tgz#7fd88a7f897f8ebe0c665cf14e06ec83052e7fd6"
@@ -687,7 +699,7 @@ hypercore-crypto@^3.2.1, hypercore-crypto@^3.3.1:
     compact-encoding "^2.5.1"
     sodium-universal "^4.0.0"
 
-hypercore@^10.8.1:
+hypercore@^10.5.3, hypercore@^10.8.1:
   version "10.8.1"
   resolved "https://registry.yarnpkg.com/hypercore/-/hypercore-10.8.1.tgz#5852322b8138f4b52724fc5dd182cf30e270f486"
   integrity sha512-ORnHsMi/NyerofTWkt3b4suHOx0037vJwd4q9BNsZGYhXaWepzZd0/vIU8BBsTZsyY90xfOJp03MwGRg1kB3sw==

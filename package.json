@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rename": "node rename.js",
+    "oem": "lshw",
+    "load-assets": "node load_assets.js",
+    "load-uri": "node load_uri.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "corestore": "^6.5.2",
     "dot-env": "^0.0.1",
     "dotenv": "^16.0.3",
     "hypercore": "^10.8.1",
