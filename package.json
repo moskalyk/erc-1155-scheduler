@@ -14,9 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "0xsequence": "^0.43.26",
     "corestore": "^6.5.2",
     "dot-env": "^0.0.1",
     "dotenv": "^16.0.3",
+    "ethers": "5.7.2",
     "hypercore": "^10.8.1",
     "web3.storage": "^4.5.4"
   }
